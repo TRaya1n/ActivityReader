@@ -4,3 +4,4 @@ node_modules/
 .upm
 package-lock.json
 .config
+.env
