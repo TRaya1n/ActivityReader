@@ -9,7 +9,7 @@ interface LoggerOptions {
  * @returns String - time
  */
 function getTime() {
-  return moment().utcOffset(+5).format("DD:HH:mm:ss");
+  return moment().utcOffset(+5).format("YYYY/MM/DD H:mm:ss");
 }
 
 export class Logger {
